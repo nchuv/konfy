@@ -1,0 +1,13 @@
+section.services
+  .container
+    h2.title=i18n.services.title
+    ul.services__list
+      each item in i18n.services.cards
+        li.services__item
+          .services__card
+            h3.services__title=item.title
+            .services__img
+              img(src=`/img/services/${item.img}.svg`, alt=item.title)
+            ul
+              each text in item.list
+                li=text

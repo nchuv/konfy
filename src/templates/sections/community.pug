@@ -1,0 +1,14 @@
+section.community
+  .container
+    h2.title=i18n.community.title
+    p.desc=i18n.community.text
+
+    .community__row
+      .community__img
+        img(src="/img/community.svg", alt="")
+      .community__block
+        ul.community__list
+          each item in i18n.community.list
+            li
+              img(src=`/img/icons/${item.icon}.svg`, alt="konfy")
+              p=item.text

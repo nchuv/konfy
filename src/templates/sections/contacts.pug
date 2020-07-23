@@ -1,0 +1,24 @@
+section.contacts
+  .container
+    .contacts__row
+      .contacts__img
+        img(src="/img/contacts.svg", alt="konfy")
+      .contacts__block
+        h2.title=i18n.contacts.title
+        ul.contacts__list
+          li.contacts__address
+            include ../icons/address.svg
+            span=i18n.contacts.address
+          li.contacts__address: a(href=`mailto:${i18n.contacts.info}`)
+            include ../icons/email.svg
+            span=i18n.contacts.info
+          li.contacts__address: a(href=`mailto:${i18n.contacts.partner}`)
+            include ../icons/email.svg
+            span=i18n.contacts.partner
+          li: a.external-link(href="/privacy")=i18n.privacy
+          li.socials
+            a(href="/twitter")
+              include ../icons/twitter.svg
+            a(href="/patreon")
+              include ../icons/youtube.svg
+          li: a(href=i18n.contacts.site).external-link=i18n.tshirts

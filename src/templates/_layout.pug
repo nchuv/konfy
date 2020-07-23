@@ -1,0 +1,15 @@
+block vars
+doctype html
+html(lang="en" encoding="UTF-8" charset="UTF-8" dir="ltr" itemtype="http://schema.org/WebPage" content="text/html; charset=UTF-8")
+  head
+    block meta
+      include ./head/meta.pug
+      //- include ./head/favicons.pug
+      //- include ./head/socials.pug
+      include ./head/styles.pug
+  body
+    .wrapper
+      main
+        block content
+    script(defer crossorigin='anonymous' type='application/javascript' charset='UTF-8' src='script.js')
+

@@ -1,0 +1,28 @@
+extend ./templates/_layout.pug
+
+block vars
+  -
+    site_name = "konfy"
+    site_description = "Konfy description"
+    site_url = "https://konfy.com"
+    canonical = "https://konfy.com"
+    twitter_account = "@konfy"
+    share_img = site_url + "share.png"
+    lang = en
+    i18n = locals.i18n
+
+block content
+  include ./templates/sections/header.pug
+  include ./templates/sections/hero.pug
+  include ./templates/sections/about.pug
+  include ./templates/sections/conferences.pug
+  include ./templates/sections/services.pug
+  include ./templates/sections/podcasts.pug
+  include ./templates/sections/community.pug
+  include ./templates/sections/youtube.pug
+  include ./templates/sections/leadership.pug
+  include ./templates/sections/focus.pug
+  include ./templates/sections/partnership.pug
+  include ./templates/sections/contacts.pug
+  include ./templates/sections/footer.pug
+

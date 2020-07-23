@@ -1,0 +1,24 @@
+section.conferences
+  .container
+    h1.title=i18n.conferences.title
+    ul.card__list
+      li.card__row
+        .card__img.card-haskell
+          include ../icons/haskell.svg
+        .card__block
+          .card__info!=i18n.conferences.list[0].text
+          .card__socials.socials
+            a(href="/twitter")
+              include ../icons/twitter.svg
+            a(href="/patreon")
+              include ../icons/patreon.svg
+      li.card__row
+        .card__img.card-scala
+          include ../icons/scala.svg
+        .card__block
+          .card__info!=i18n.conferences.list[1].text
+          .card__socials.socials
+            a(href="/twitter")
+              include ../icons/twitter.svg
+            a(href="/patreon")
+              include ../icons/patreon.svg

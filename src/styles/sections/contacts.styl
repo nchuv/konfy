@@ -1,0 +1,41 @@
+.contacts 
+  background: --background
+  padding: 32px 0
+  
+.contacts__row
+  display flex
+  justify-content center
+  
+.contacts__list
+  margin 0
+
+.contacts__list li
+  display block
+  margin-bottom 18px
+.contacts__list li:last-child
+  margin-top 70px
+
+.contacts__address
+  font-family: "Montserrat";
+  position relative
+  color: --text
+  font-weight: 300;
+  line-height 1.2
+  
+  svg 
+    position absolute
+    left: -32px;
+    top: 3px;
+
+.contacts__address a
+  color currentColor
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+.contacts .external-link
+  display inline-block
+  padding 5px 0
+
+.contacts .socials a
+  margin-right: 22px

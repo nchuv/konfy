@@ -1,0 +1,24 @@
+section.podcasts
+  .container
+    h2.title=i18n.podcasts.title
+    ul.card__list
+      li.card__row
+        .card__img.card-scala
+          include ../icons/scala.svg
+        .card__block
+          .card__info!=i18n.podcasts.list[0].text
+          .card__socials.socials
+            a(href="/twitter")
+              include ../icons/twitter.svg
+            a(href="/patreon")
+              include ../icons/patreon.svg
+      li.card__row
+        .card__img.card-podcast
+          include ../icons/podcast.svg
+        .card__block
+          .card__info!=i18n.podcasts.list[1].text
+          .card__socials.socials
+            a(href="/twitter")
+              include ../icons/twitter.svg
+            a(href="/patreon")
+              include ../icons/patreon.svg
