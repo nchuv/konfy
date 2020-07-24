@@ -61,7 +61,7 @@ module.exports = {
             <li>Science of Computer Programming;</li>
           </ul>
         </p> `,
-        twitter: `https://twitter.com/KonfyCare`,
+        twitter: `https://twitter.com/_haskellove`,
         patreon: `https://www.patreon.com/scalalove`,
         site: `http://scalalove.spreadshirt.com/`,
         link: `https://konfy.care/cfp`,
@@ -75,7 +75,7 @@ module.exports = {
             <li>FP community building.</li>
           </ul>
         </p> `,
-        twitter: `https://twitter.com/KonfyCare`,
+        twitter: `https://twitter.com/scala_love`,
         patreon: `https://www.patreon.com/scalalove`,
         site: `http://scalalove.spreadshirt.com/`,
       },
@@ -132,7 +132,7 @@ module.exports = {
             <li>every episode brings a huge dose of programming news;</li>
           </ul>
         </p> `,
-        twitter: "https://twitter.com/KonfyCare",
+        twitter: "https://twitter.com/scala_love",
         link: "link",
       },
       {
