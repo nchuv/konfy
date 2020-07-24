@@ -1,42 +1,43 @@
 module.exports = {
   tshirts: `T-shirts`,
   write: `Write us`,
+  listen: `Listen`,
   menu: [
     {
       title: `About`,
-      link: "link",
+      link: "about",
     },
     {
       title: `Conferences`,
-      link: "link",
+      link: "conferences",
     },
     {
       title: `Services`,
-      link: "link",
+      link: "services",
     },
     {
       title: `Podcasts`,
-      link: "link",
+      link: "podcasts",
     },
     {
       title: `YouTube`,
-      link: "link",
+      link: "youtube",
     },
     {
       title: `Our team`,
-      link: "link",
+      link: "team",
     },
     {
       title: `Feedback`,
-      link: "link",
+      link: "feedback",
     },
     {
       title: `Partnership`,
-      link: "link",
+      link: "partnership",
     },
     {
       title: `Contacts`,
-      link: "link",
+      link: "contacts",
     },
   ],
   hero: {
@@ -60,10 +61,10 @@ module.exports = {
             <li>Science of Computer Programming;</li>
           </ul>
         </p> `,
-        twitter: `twitter`,
-        patreon: `patreon`,
-        site: `site`,
-        link: `link`,
+        twitter: `https://twitter.com/KonfyCare`,
+        patreon: `https://www.patreon.com/scalalove`,
+        site: `http://scalalove.spreadshirt.com/`,
+        link: `https://konfy.care/cfp`,
       },
       {
         text: `<p>Scala Love is an online event gathering FP and OOP programmers all around the world. The event took place on April 18th, 2020.<br/>The conference's lineup was packed with talks about:</p>
@@ -74,9 +75,9 @@ module.exports = {
             <li>FP community building.</li>
           </ul>
         </p> `,
-        twitter: `twitter`,
-        patreon: `patreon`,
-        site: `site`,
+        twitter: `https://twitter.com/KonfyCare`,
+        patreon: `https://www.patreon.com/scalalove`,
+        site: `http://scalalove.spreadshirt.com/`,
       },
     ],
   },
@@ -87,29 +88,40 @@ module.exports = {
         title: "Full Package",
         img: "full",
         list: [
+          "Track owner training;",
+          "Attendees management;",
           "Registration & newsletter services;",
-          "Marketing and social media automatization solution;",
-          "Streaming & recording software;",
+          "Marketing and social media promotion;",
+          "Sponsor management;",
+          "Speakers management;",
+          "Streaming & recording services;",
         ],
       },
       {
         title: "Medium Package",
         img: "medium",
         list: [
-          "Registration & newsletter tool;",
-          "Marketing and social media promotion",
+          "Registration & newsletter services;",
+          "Marketing and social media promotion;",
+          "Speakers management;",
+          "Attendees management;",
+          "Sponsor management;",
         ],
       },
       {
         title: "Light Package",
         img: "light",
-        list: ["Registration & newsletter tool;"],
+        list: [
+          "Registration & newsletter services;",
+          "Marketing and social media promotion;",
+          "Attendees management;",
+          "Sponsor management;",
+        ],
       },
     ],
   },
   podcasts: {
     title: `Our podcasts`,
-    listen: `Listen`,
     list: [
       {
         text: `<p>A podcast about the Scala Programming Language and its community</p>
@@ -120,7 +132,7 @@ module.exports = {
             <li>every episode brings a huge dose of programming news;</li>
           </ul>
         </p> `,
-        twitter: "twitter",
+        twitter: "https://twitter.com/KonfyCare",
         link: "link",
       },
       {
@@ -132,7 +144,7 @@ module.exports = {
               <li>Chats about situational and environmental (a history & a community) context of software development.</li>
             </ul>
           </p> `,
-        twitter: "twitter",
+        twitter: "https://twitter.com/KonfyCare",
         link: "link",
       },
     ],
@@ -169,7 +181,7 @@ module.exports = {
     quote: `
         <p>Oli has organized and participated in dozens of conference since 2013:</p>
         <p>“My journey as an organizer started with a small scientific conference in Novosibirsk, Russia. Since then I’ve been focusing on building communities around the globe. 
-        How do we build caring community? In order to build a safe home, you need a strong construction. We are planning every detail of the conference to make it comfortable for everyone starting with Slack or Discord channels and ending with fun community parties!“<p>
+        <br/>How do we build caring community? In order to build a safe home, you need a strong construction. We are planning every detail of the conference to make it comfortable for everyone starting with Slack or Discord channels and ending with fun community parties!“<p>
       `,
   },
   focus: {
@@ -185,7 +197,7 @@ module.exports = {
   },
   partnership: {
     title: `Media partnership`,
-    text: `Konfy is built by specialists and aficionados of software development, marketing & business smarties, people who believe in the solutions that matter. They commit their time, to save yours.`,
+    text: `We would love to become friends with your organization.<br/>If you want to become our media partner, we will put your logo on our webpage (partnership section) in exchange we ask for a banner on your webpage and announcement in social media.`,
     button: `link`,
   },
   contacts: {
@@ -193,10 +205,10 @@ module.exports = {
     address: `5608 17th Avenue NW #921 Seattle, WA 98107`,
     info: `info@konfy.care`,
     partner: `partner@konfy.care`,
-    twitter: `twitter`,
-    patreon: `patreon`,
-    site: `site`,
+    twitter: `https://twitter.com/KonfyCare`,
+    youtube: `https://www.youtube.com/c/Konfy/about`,
+    site: `http://scalalove.spreadshirt.com/`,
   },
-  privacy: `Privacy police`,
+  privacy: `Privacy policy`,
   copyright: `© 2020 Konfy, LLC`,
 };

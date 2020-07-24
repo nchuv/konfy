@@ -19,19 +19,19 @@ body
   font-size: 14px;
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
-  @media medium
-    font-size 16px
+  @media small
+    font-size 18px
 
 .container
   width 100%
   margin 0 auto
   padding 0 10px
   box-sizing border-box
-  @media medium
-    max-width 768px
+  max-width 687px
+  @media small
     padding 0 30px
   @media regular
-    max-width 1200px
+    max-width 1260px
 
 
 .title
@@ -42,9 +42,16 @@ body
   text-align: center;
   letter-spacing: 0.01em;
   color: --title;
-  margin 0 0 16px
-  @media medium
+  margin 0 0 17px
+  @media small
+    font-size: 36px;
+    line-height: 1.7;
+    margin: 0 0 10px;
+  @media regular
     font-size: 48px;
+    line-height: 1.5;
+    margin: 0 0 16px;
+
 
 .btn
   display inline-block
@@ -69,11 +76,8 @@ body
 .desc
   font-family: "Montserrat";
   text-align center
-  font-size 14px
   margin 0
-  @media medium
-    font-size 18px
-
+  
 .external-link
   color: --accent
   font-weight: 500;
@@ -102,3 +106,5 @@ body
     color: --accent
   &:disabled
     color: --text
+.socials svg 
+  display block

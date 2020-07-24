@@ -1,7 +1,10 @@
 .focus 
   background: --background
-  padding: 56px 0
-
+  padding: 56px 0 50px
+  @media small
+    padding 42px 0 68px
+  @media regular
+    padding 130px 0 150px
 .focus__wrap
   max-width: 716px
   margin: 0 auto
@@ -10,16 +13,37 @@
   @media regular
     margin 0 -24px
 
+.focus__wrap p
+  margin 0 0 18px
+  @media small
+    margin 0 0 30px
+
 .focus__text
   font-style: italic;
-  line-height: 1.5;
   letter-spacing: 0.01em;
   margin: 20px 0 40px
   color: --text;
-  
+  @media small
+    line-height: 1.7;
+    margin: 48px 0 60px
+  @media regular
+    margin: 86px 0 94px
+
+.focus__socials
+  @media small
+    margin-top 8px
 .focus__socials .external-link 
   margin-right 16px
+  @media small
+    font-weight: bold;
+    font-size: 24px;
+    margin-right 64px
+
 .focus__socials .external-link svg 
   width 16px
   vertical-align: middle
+  @media small
+    width auto
+    margin-right 8px
+
   

@@ -1,12 +1,12 @@
-section.focus
+section.focus#feedback
   .container
     .focus__wrap
       h2.title=i18n.focus.title
       div.focus__text!=i18n.focus.text
       .focus__block
-        div=i18n.focus.feedback
+        div: i=i18n.focus.feedback
         div.focus__socials
-          a.external-link(href="/link") #scalalove
-          a.external-link(href="/link")
+          a.external-link(href="https://twitter.com/search?q=scalalove&src=typed_query" rel="nofollow noopener" target="_blank") #scalalove
+          a.external-link(href="https://join.slack.com/t/scalalove/shared_invite/zt-cnram7o2-tBs6RoqlIVDkCTEdqRb_4w" rel="nofollow noopener" target="_blank")
             include ../icons/slack.svg
             span our slack

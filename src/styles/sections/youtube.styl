@@ -1,17 +1,31 @@
 .youtube 
   background: #181818;
   color white
-  padding 56px 0
+  padding 52px 0 58px
   text-align: center
+  @media small
+    padding 44px 0 55px 
+  @media regular
+    padding 136px 0 152px 
 
 .youtube .title
   color white
-
+  
+.youtube .socials
+  margin 32px 0 28px
+  @media small
+    margin 32px 0 42px
+  @media regular
+    margin 24px 0 45px
 .videoWrapper 
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
-  
+  @media regular
+    max-width: 942px
+    margin: 0 auto
+    padding-bottom: 44.25%;
+
 .videoWrapper iframe 
   position: absolute;
   top: 0;

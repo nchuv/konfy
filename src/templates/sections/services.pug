@@ -1,4 +1,4 @@
-section.services
+section.services#services
   .container
     h2.title=i18n.services.title
     ul.services__list
@@ -11,3 +11,5 @@ section.services
             ul
               each text in item.list
                 li=text
+    .services__bottom
+      a(href="mailto:partner@konfy.care").btn=i18n.write

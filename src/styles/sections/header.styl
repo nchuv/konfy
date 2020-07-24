@@ -10,7 +10,7 @@
 .header__row
   display flex
   align-items: center
-  max-width 1440px
+  max-width 1400px
   margin: auto
 
 .header__logo
@@ -23,28 +23,50 @@
 
 .nav
   margin-left: auto
-  @media medium
+  @media regular
     flex 1 0 0
+    padding-left 3%
+    box-sizing: border-box
 
 .nav ul
   margin 0 
   padding 0
+  position relative
+  background: #fff
+  display flex
   @media desktop
-    display none
-  @media medium
-    display flex
+    display block
+    min-width 175px
+    position absolute
+    transition: .25s ease-in-out
+    right: 0;
+    top 100%
+    max-height 0
+    overflow hidden
+    border-left 1px solid #EBEFF2
+    border-top 1px solid #EBEFF2
+  @media regular
+    display float left
     justify-content: space-between
+
+ .nav.opened ul
+  @media desktop
+    // display block
+    max-height 600px
+
 .nav__button
   background: transparent
   border none 
   height 60px
-  padding-right 16px
+  margin-right: 66px;
 
-  @media medium
+  @media regular
     display none
 
 .nav li
   display block
+  @media regular
+    flex 1 0 0
 
 .nav a
   display block
@@ -57,5 +79,14 @@
   padding 0 16px
   box-sizing: border-box
   cursor pointer
+  text-decoration: none
+  text-align: center
   &:hover
     color --accent
+  @media desktop
+    height 56px
+    line-height 56px
+
+.nav .active
+  color --accent
+  background:rgba(219, 238, 253, 0.25);

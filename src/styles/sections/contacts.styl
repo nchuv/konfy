@@ -1,26 +1,46 @@
 .contacts 
   background: --background
-  padding: 32px 0
+  padding: 50px 0 54px
+  @media small
+    padding: 54px 0 54px
+  @media regular
+    padding: 136px 0 50px
   
 .contacts__row
   display flex
   justify-content center
+  padding-top: 6px 
+  @media small
+    justify-content flex-start
+    padding-top 42px
+  @media regular
+    justify-content center
   
 .contacts__list
   margin 0
-
 .contacts__list li
   display block
-  margin-bottom 18px
-.contacts__list li:last-child
-  margin-top 70px
 
+.contacts__list li:last-child
+  margin-top 68px
+
+.contacts__block
+  padding-left 14px
+  padding-top: 6px 
+  box-sizing: border-box
+  @media small
+    padding-left 76px
+  @media regular
+    padding-right: 170px;
 .contacts__address
   font-family: "Montserrat";
   position relative
   color: --text
   font-weight: 300;
   line-height 1.2
+  margin-bottom 18px
+  @media small
+    margin-bottom 13px
   
   svg 
     position absolute
@@ -35,7 +55,9 @@
 
 .contacts .external-link
   display inline-block
-  padding 5px 0
+  padding 7px 0
+
 
 .contacts .socials a
   margin-right: 22px
+  margin-top 12px

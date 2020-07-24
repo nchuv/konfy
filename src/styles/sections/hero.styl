@@ -1,23 +1,40 @@
 .hero 
-  background: url('/img/hero.svg') no-repeat center / auto 85%;
+  background: url('/img/hero.svg') no-repeat center bottom / auto 85%;
 
 .hero__wrap
-  height 375px
+  height 418px
+  padding: 0 32px;
   display flex
   align-items center
   justify-content: center
   flex-direction: column
-  @media medium
+  padding: 78px 32px 0;
+  box-sizing: border-box;
+  @media small 
+    height 424px
+    padding: 52px 42px 0;
+  @media regular
     height 100vh
+    padding: 60px 0 0;
 
 .hero .desc
-  @media medium
+  @media small
     font-size: 24px;
+    line-height 1.25
 
 .hero .title
-  margin 0 
-  @media medium
+  margin 0 0 16px
+  font-weight: bold;
+  line-height: 1.28;
+  @media small
+    line-height: 1.15;
+    font-size: 48px;
+    margin 0 0 10px
+  @media regular
+    margin: 0 0 38px;
     font-size: 55px;
 
 .hero .btn 
-  margin-top 32px
+  margin-top 32px 
+  @media regular
+    margin-top: 70px;

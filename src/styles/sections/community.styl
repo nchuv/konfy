@@ -1,27 +1,52 @@
 .community 
   background --background
-  padding 56px 0
+  padding 54px 0 60px
+  @media small
+    padding 44px 0 28px
+  @media regular
+    padding 136px 0 148px
+.community__img 
+  padding: 28px 0;
+  img
+    width 100%
+  @media small
+    padding: 58px 10px 0;
+  @media regular
+    padding: 0 28px;
 
-.community__img img
-  width 100%
 .community__row
   font-family: "Montserrat";
+  @media small
+    padding: 0 30px;
   @media regular
     display flex
-  
+    margin 0 -28px
+    padding-top 68px
+    
 .community__list
   padding 0
   margin 0
-  @media medium
+  font-size 16px
+  @media small
     display flex
+    justify-content space-between
     flex-wrap: wrap
 
 .community__list li
   max-width 256px
   display block
-  @media medium
+  margin-top 48px
+  &:first-child
+    margin-top 0
+  @media small
     width 50%
+    margin-top 0
+    padding 28px 0
+   
+.community__list p
+  margin 10px 0
 
 .community__block
-  @media medium
+  @media regular
+    padding 0 28px
     width 50%

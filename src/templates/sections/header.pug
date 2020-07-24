@@ -1,10 +1,10 @@
 header.header
   .header__row
-    a(href="#").header__logo
+    a(href="#default").header__logo
       img(src="img/logo.svg", alt="")
     nav.nav
       button.nav__button
         include ../icons/burger.svg
       ul
         each item in i18n.menu
-          li: a=item.title
+          li: a(href=`#${item.link}`).nav-link=item.title

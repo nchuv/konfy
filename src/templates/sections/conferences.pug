@@ -1,4 +1,4 @@
-section.conferences
+section.conferences#conferences
   .container
     h1.title=i18n.conferences.title
     ul.card__list
@@ -8,17 +8,20 @@ section.conferences
         .card__block
           .card__info!=i18n.conferences.list[0].text
           .card__socials.socials
-            a(href="/twitter")
+            a(href=i18n.conferences.list[0].twitter rel="nofollow noopener" target="_blank")
               include ../icons/twitter.svg
-            a(href="/patreon")
+            a(href=i18n.conferences.list[0].patreon rel="nofollow noopener" target="_blank")
               include ../icons/patreon.svg
+            a(href=i18n.conferences.list[0].site).external-link=i18n.tshirts
+          a(href="https://konfy.care/cfp").btn Get free ticket 
       li.card__row
         .card__img.card-scala
           include ../icons/scala.svg
         .card__block
           .card__info!=i18n.conferences.list[1].text
           .card__socials.socials
-            a(href="/twitter")
+            a(href=i18n.conferences.list[1].twitter rel="nofollow noopener" target="_blank")
               include ../icons/twitter.svg
-            a(href="/patreon")
+            a(href=i18n.conferences.list[1].patreon rel="nofollow noopener" target="_blank")
               include ../icons/patreon.svg
+            a(href=i18n.conferences.list[1].site rel="nofollow noopener" target="_blank").external-link=i18n.tshirts

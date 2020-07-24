@@ -1,17 +1,29 @@
 .about 
   background: --background
-  padding 56px 0
+  padding 60px 0 48px
+  @media small
+    padding: 52px 0 48px;
   @media regular
-    padding 140px 0
+    padding 150px 0 160px
+
  
 .about .desc
-  @media medium
+  font-size 24px
+  line-height 1.7
+  @media small
+    font-size 30px
+    line-height 1.5
+  @media regular
     max-width: 720px
     margin: 0 auto
+    line-height 1.25
     font-size: 36px;
 
-.conferences
-  padding 56px 0
-  
+.conferences,
 .podcasts
   padding 56px 0
+  @media small
+    padding 44px 0 60px
+  @media regular
+    padding 140px 0 148px
+

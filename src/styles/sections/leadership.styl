@@ -1,20 +1,40 @@
 .leadership 
-  padding 56px 0
+  padding 52px 0 42px
+  @media small
+    padding 44px 0 42px;
+  @media regular
+    padding 140px 0 126px 
 
-.leadership__text
+.leadership .desc
   text-align: center
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.01em;
+  margin: 0 0 30px;
+  @media small
+    margin-bottom: 60px;
+  @media regular
+    padding: 0 10%;
+    margin: 32px 0px 56px;
 
 .leadership__row
-  @media medium
+  @media regular
     display flex
+    align-items: center
 
 .leadership__block
   font-style: italic;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.5;
   letter-spacing: 0.01em;
+  line-height 2.2
+  margin-top: 10px;
+  @media small
+    line-height: 1.7;
+    margin-top: 20px;
+  @media regular
+    width 65%
+    margin-top: 0;
+
+.leadership__img
+  text-align: center
+  @media regular
+    width 35%
+
+.leadership__block p:first-of-type 
+  margin 0 0 32px

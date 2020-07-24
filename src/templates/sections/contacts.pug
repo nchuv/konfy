@@ -1,10 +1,10 @@
-section.contacts
+section.contacts#contacts
   .container
+    h2.title=i18n.contacts.title
     .contacts__row
       .contacts__img
         img(src="/img/contacts.svg", alt="konfy")
       .contacts__block
-        h2.title=i18n.contacts.title
         ul.contacts__list
           li.contacts__address
             include ../icons/address.svg
@@ -17,8 +17,8 @@ section.contacts
             span=i18n.contacts.partner
           li: a.external-link(href="/privacy")=i18n.privacy
           li.socials
-            a(href="/twitter")
+            a(href=i18n.contacts.twitter rel="nofollow noopener" target="_blank")
               include ../icons/twitter.svg
-            a(href="/patreon")
+            a(href=i18n.contacts.youtube)
               include ../icons/youtube.svg
           li: a(href=i18n.contacts.site).external-link=i18n.tshirts
