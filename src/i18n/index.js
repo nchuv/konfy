@@ -64,7 +64,7 @@ module.exports = {
         twitter: `https://twitter.com/_haskellove`,
         patreon: `https://www.patreon.com/scalalove`,
         site: `http://scalalove.spreadshirt.com/`,
-        link: `https://konfy.care/cfp`,
+        link: `https://haskell.love/`,
       },
       {
         text: `<p>Scala Love is an online event gathering FP and OOP programmers all around the world. The event took place on April 18th, 2020.<br/>The conference's lineup was packed with talks about:</p>
@@ -78,6 +78,7 @@ module.exports = {
         twitter: `https://twitter.com/scala_love`,
         patreon: `https://www.patreon.com/scalalove`,
         site: `http://scalalove.spreadshirt.com/`,
+        link: `https://scala.love/conf`,
       },
     ],
   },
@@ -133,7 +134,7 @@ module.exports = {
           </ul>
         </p> `,
         twitter: "https://twitter.com/scala_love",
-        link: "link",
+        link: "https://scala.love/",
       },
       {
         text: `
@@ -145,7 +146,7 @@ module.exports = {
             </ul>
           </p> `,
         twitter: "https://twitter.com/KonfyCare",
-        link: "link",
+        link: "https://programming.love/",
       },
     ],
   },
